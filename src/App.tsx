@@ -1,7 +1,7 @@
 import React from 'react';
-
+import ToDoList from './pages/ToDoList';
 function App() {
-  return <div>App</div>;
+  return <ToDoList />;
 }
 
 export default App;
