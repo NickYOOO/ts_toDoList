@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Input from '../common/input/Input';
 import ToDo from '../../interface/ToDo';
 import * as S from './style';
-import shortId from 'shortid';
+import shortid from 'shortid';
 
 interface FormProps {
   toDos: ToDo[];
@@ -22,7 +22,7 @@ const Form = ({ toDos, setToDos }: FormProps) => {
   const onSubmitHandler = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     const newToDo: ToDo = {
-      id: shortId.generate(),
+      id: shortid.generate(),
       title,
       content,
       isDone: false,

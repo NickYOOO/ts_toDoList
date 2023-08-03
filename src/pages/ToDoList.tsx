@@ -7,7 +7,7 @@ function ToDoList() {
   //     return JSON.parse(localStorage.getItem('ToDoList'))
   // }
 
-  //   const [toDos, setToDos] = useState(getData());
+  // const [toDos, setToDos] = useState(getData());
 
   // useEffect(() => {
   //     window.localStorage.setItem('ToDoList', JSON.stringify(toDos))
